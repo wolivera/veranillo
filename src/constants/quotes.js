@@ -1,0 +1,1 @@
+export const LOAD_RANDOM_QUOTE = 'LOAD_RANDOM_QUOTE';
