@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "veranillo",
+    "name": "VeranilloApp",
     "description": "An empty new project",
     "slug": "veranillo",
     "privacy": "public",
@@ -9,11 +9,8 @@
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./src/assets/appiconset/android/playstore-icon.png",
-    "loading": {
-      "icon": "./src/assets/appiconset/android/playstore-icon.png"
-    },
     "splash": {
-      "image": "./assets/splash.png",
+      "image":  "./src/assets/appiconset/android/playstore-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,6 +19,10 @@
     },
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.redblues.veranillo",
+      "permissions": []
     }
   }
 }
