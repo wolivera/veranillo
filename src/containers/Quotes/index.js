@@ -4,15 +4,25 @@ import { Text, View, StyleSheet, Image } from 'react-native';
 import { Tile, Button } from 'react-native-elements';
 import { connect } from 'react-redux';
 
-import { loadRandomQuote } from '../../actions/quotes';
+import { loadQuote } from '../../actions/quotes';
 
 class QuotesScreen extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      currentQuote: 0,
+    }
+  }
+
   componentWillMount() {
-    this.props.loadRandomQuote();
+    this.props.loadQuote(this.state.currentQuote);
   }
 
   handleNextQuote() {
-    this.props.loadRandomQuote();
+    const currentQuote = this.state.currentQuote;
+    this.setState({ currentQuote: currentQuote + 1 }, () => {
+      this.props.loadQuote(currentQuote + 1);
+    })
   }
 
   render() {
@@ -77,7 +87,7 @@ const styles = StyleSheet.create({
 
 
 QuotesScreen.propTypes = {
-  loadRandomQuote: PropTypes.func.isRequired,
+  loadQuote: PropTypes.func.isRequired,
   quote: PropTypes.oneOfType([
     PropTypes.bool,
     PropTypes.object,
@@ -90,8 +100,8 @@ const mapStateToProps = state => ({
 
 function mapDispatchToProps(dispatch) {
   return {
-    loadRandomQuote: () => {
-      dispatch(loadRandomQuote());
+    loadQuote: (idx) => {
+      dispatch(loadQuote(idx));
     },
   };
 }

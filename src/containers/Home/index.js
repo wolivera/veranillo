@@ -14,18 +14,18 @@ const MainScreenNavigator = TabNavigator({
       tabBarIcon: () => <Icon name="wb-sunny" color="white" />
     }
   },
-  'Epico': {
-    screen: QuotesScreen,
-    navigationOptions: {
-      tabBarLabel: 'Épico',
-      tabBarIcon: () => <Icon name="book" color="white" />
-    }
-  },
   'Equipo': {
     screen: PeopleScreen,
     navigationOptions: {
       tabBarLabel: 'El equipo',
       tabBarIcon: () => <Icon name="group" color="white" />
+    }
+  },
+  'Epico': {
+    screen: QuotesScreen,
+    navigationOptions: {
+      tabBarLabel: 'Épico',
+      tabBarIcon: () => <Icon name="book" color="white" />
     }
   },
 },

@@ -25,19 +25,12 @@ export default class About extends React.Component {
             Así como las mejores bandas de rock, los miembros fueron cambiando. No olvidamos
             a un Agus Rivera con más cantidad de bullying al topo que puntos en los exámenes.
             O un Fede Jorcín que al darse cuenta que lo mejor que podía conseguir juntándose
-            con el Veranillo era el acoso de la hermana de la Chucala.{"\n\n"}
-
-            Tampoco olvidemos que algunos de los miembros actuales supieron ser parte de "otro
-            grupito de amigos". Por ejemplo Jenni que luego de ser integrante exclusiva del
-            lado derecho del salón, tambien conocido como el Inviernillo o "Los Popu", supo
-            ver lo que era bueno en uno de los miembros del Veranillo, un macho latino irresistible.
-            También teníamos a Danilo y el Zalo tirando más hacia el medio del salón que luego
-            de algunos meses y hamburguesadas de por medio formalizaron su integración.{"\n\n"}
+            con el Veranillo era el acoso de la hermana de la Chucalá.{"\n\n"}
 
             Ya en el 2009 el Veranillo corrió riesgo de separación de otro de sus miembros.
             En plena definición del listado de integrantes del nuevo año, la corrupción tuvo
             su lugar: viajes a Portugal, arreglos con la Policía, Directores de la Educación, favores,
-            mafia, drogas, lavado de dinero e intercambio de órganos fueron sólo algunas de las
+            mafia, drogas, lavado de activos e intercambio de órganos fueron sólo algunas de las
             cosas que dejaron a Willi en el turno de la tarde.{"\n\n"}
 
             Todo parecía acabarse para el susodicho, incluso se buscaron reemplazos tales como

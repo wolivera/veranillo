@@ -3,7 +3,7 @@ const quotes = [
     id: 1,
     type: 'Frase random',
     text: 'Son dos cuadras Zalo',
-    author: 'M.T'
+    author: 'M.Troisi'
   }, {
     id: 2,
     type: 'Frase random',

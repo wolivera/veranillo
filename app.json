@@ -22,6 +22,7 @@
     },
     "android": {
       "package": "com.redblues.veranillo",
+      "versionCode": 2,
       "permissions": []
     }
   }
